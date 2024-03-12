@@ -8,7 +8,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "TUASACH")
 public class TuaSach {
-	
 	@Id
 	@Column(name = "id")
 	private int id;
@@ -77,7 +76,5 @@ public class TuaSach {
 	public void setDaAn(int daAn) {
 		this.daAn = daAn;
 	}
-	
-	
 	
 }

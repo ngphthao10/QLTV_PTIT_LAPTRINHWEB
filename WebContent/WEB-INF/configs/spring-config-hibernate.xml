@@ -21,6 +21,7 @@
 			p:url="jdbc:sqlserver://localhost:1433; Database=QLTV"
 			p:username="sa"
 			p:password="1234">
+
 	</bean>
 	
 	<!-- Cấu hình Hibernate -->
